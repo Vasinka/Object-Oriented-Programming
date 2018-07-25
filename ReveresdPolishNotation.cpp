@@ -1,8 +1,6 @@
 #include <iostream>
 using namespace std;
 
-
-
 template<typename T> class Stack
 {
 
@@ -212,20 +210,13 @@ bool testNotationSolution()
 int main()
 {
 
-                char notation[100];
-                cin.getline(notation, 100);
+         char notation[100];
+         cin.getline(notation, 100);
 
 
- int result = calculate(notation);
+        int result = calculate(notation);
 
-
-
-                cout << "Result: " << result << endl;
-
-
-
-                return 0;
-
-
-
+        cout << "Result: " << result << endl;
+              
+        return 0;
 }
