@@ -1,3 +1,9 @@
+/**task: Add 3 functions to the class Point3:
+//       1. function that inputs an array of points in the 3D-Dimension
+         2. function that changes the coordinates of each point with their symmetrical match respect to (0;0)
+         3. function that outputs an array of points in the 3D-Dimension
+
+*/
 #include<iostream>
 using namespace std;
 
@@ -17,7 +23,7 @@ class Point3
         void setY(int);
         void setZ(int);
 
-        void input (int n, Point3 a[])
+        void input (int n, Point3 a[]) //task 1
         {
             for (int i = 0; i < n; i++)
             {
