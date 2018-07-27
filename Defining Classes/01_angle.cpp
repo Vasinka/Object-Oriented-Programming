@@ -53,6 +53,6 @@ int main()
     cout<<myAngle.getSin()<<endl;
     cout<<myAngle.getCos()<<endl;
     cout<<myAngle.getTan()<<endl;
-
-
+    
+    return 0;
 }
