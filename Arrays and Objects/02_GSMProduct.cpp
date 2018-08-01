@@ -1,3 +1,12 @@
+/**task:
+* Implement class Product that describes GSM Product with following characteristics:
+* SKU, Brand, MODEL, Price, Count, RAM, ROM.
+* Add appropriate setters and getters.
+* Implement class Store. The store consists of GSM products.
+* Add following methods: add, delete, change a particular product and print all products.
+* If needed add more functions to the class Product in order to help you with the implementation of class Store.
+*/
+
 #include <iostream>
 #include <cstring>
 using namespace std;
