@@ -1,3 +1,6 @@
+//not tested since #summer2017
+//TODO: test it!
+
 #include "Product.h"
 
 int main()
