@@ -241,7 +241,6 @@ bool testBrowserHistory()
                 pass = history.Count() == 1 && pass;
 
 
-
                 // test concat
 
                 HistoryEntry entry3 = history.ConcatenateEntries(entry1, entry2);
@@ -275,18 +274,14 @@ bool testBrowserHistory()
                 pass = history.Count() == limit && pass;
 
 
-
                 // test fetching month with most movies
 
                 pass = history.GetMonthWithMostMovies() == 1 && pass;
 
 
-
                 // test sites per month
 
                 pass = history.SitesPerMonth(1) == 4 && pass;
-
-
 
                 return pass;
 
@@ -294,9 +289,8 @@ bool testBrowserHistory()
 
 
 
-int main() {
-
+int main() 
+{
                 cout << testBrowserHistory();
                 return 0;
-
 }
