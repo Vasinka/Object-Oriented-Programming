@@ -1,5 +1,5 @@
 #include<iostream>
-class Book
+class Book {
 private:
 char * title;
 int pagesCount;
