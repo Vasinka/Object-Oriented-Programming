@@ -1,0 +1,39 @@
+# depslib dependency file v1.0
+1535303927 source:d:\1 vasilena\oop\expression\const.cpp
+	"Const.h"
+
+1535303480 d:\1 vasilena\oop\expression\const.h
+	"Expression.h"
+
+1535318754 d:\1 vasilena\oop\expression\expression.h
+	<iostream>
+
+1535300022 source:d:\1 vasilena\oop\expression\expression.cpp
+	"Expression.h"
+
+1535318315 source:d:\1 vasilena\oop\expression\main.cpp
+	<iostream>
+	"Const.h"
+	"Var.h"
+	"Sum.h"
+	"Product.h"
+
+1535314637 source:d:\1 vasilena\oop\expression\var.cpp
+	"Var.h"
+	<cstring>
+
+1535314695 d:\1 vasilena\oop\expression\var.h
+	"Expression.h"
+
+1535316927 source:d:\1 vasilena\oop\expression\sum.cpp
+	"Sum.h"
+
+1535316927 d:\1 vasilena\oop\expression\sum.h
+	"Expression.h"
+
+1535317606 d:\1 vasilena\oop\expression\product.h
+	"Expression.h"
+
+1535318274 source:d:\1 vasilena\oop\expression\product.cpp
+	"Product.h"
+
