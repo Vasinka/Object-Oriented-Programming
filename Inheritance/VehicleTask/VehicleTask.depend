@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1535294758 source:d:\1 vasilena\oop\vehicletask\main.cpp
+	"Car.h"
+
+1535290163 d:\1 vasilena\oop\vehicletask\vehicle.h
+	<iostream>
+
+1535291219 source:d:\1 vasilena\oop\vehicletask\vehicle.cpp
+	"Vehicle.h"
+	<cstring>
+
+1535294717 source:d:\1 vasilena\oop\vehicletask\car.cpp
+	"Car.h"
+	<cstring>
+
+1535293342 d:\1 vasilena\oop\vehicletask\car.h
+	"Vehicle.h"
+
