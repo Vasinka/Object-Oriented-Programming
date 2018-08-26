@@ -1,3 +1,4 @@
+//for a better example of inheritance look at Inheritance/VehicleTask
 #include<iostream>
 #include<cstring>
 using namespace std;
