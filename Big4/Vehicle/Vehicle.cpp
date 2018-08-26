@@ -62,4 +62,23 @@ Vehicle::~Vehicle()
     delete [] m_model;
 }
 
+Vehicle::Vehicle(const Vehicle&other)
+{
+ this->setBrand(other.m_brand);
+ this->setModel(other.m_model);
+ this->setSpeed(other.m_speed);
+ this->setSeats(other.m_seats);
+}
 
+Vehicle& Vehicle::operator=(const Vehicle&other)
+{
+    if (this!=&other)
+    {
+        this->setBrand(other.m_brand);
+        this->setModel(other.m_model);
+        this->setSpeed(other.m_speed);
+        this->setSeats(other.m_seats);
+    }
+
+    return *this;
+}
